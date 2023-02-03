@@ -1,0 +1,2109 @@
+From: <¥Ñ Microsoft Internet Explorer 5 Àx¦s>
+Subject: garage: Maemo Multilingual Dictionary: SCM Repository
+Date: Mon, 26 Mar 2007 14:18:44 -0700
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_004B_01C76FB1.A9478680"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_004B_01C76FB1.A9478680
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://garage.maemo.org/plugins/scmsvn/viewcvs.php/trunk/src/plugins/stardict/doc/DICTFILE_FORMAT?view=markup&root=mdictionary&pathrev=38
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<?xml version=3D"1.0" encoding=3D"UTF-8"?><HTML lang=3Dzh-tw =
+xml:lang=3D"en"=20
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>garage: Maemo =
+Multilingual Dictionary: SCM Repository</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3DUTF-8"><LINK=20
+title=3D"garage - Project News Highlights RSS" =
+href=3D"/export/rss_sfnews.php"=20
+type=3Dapplication/rss+xml rel=3Dalternate><LINK=20
+title=3D"garage - Project News Highlights RSS" =
+href=3D"/export/rss20_news.php"=20
+type=3Dapplication/rss+xml rel=3Dalternate><LINK title=3D"garage - New =
+Projects RSS"=20
+href=3D"/export/rss_sfprojects.php" type=3Dapplication/rss+xml =
+rel=3Dalternate>
+<SCRIPT language=3DJavaScript type=3Dtext/javascript>=0A=
+	function admin_window(adminurl) {=0A=
+		AdminWin =3D window.open( adminurl, =
+'AdminWindow','scrollbars=3Dyes,resizable=3Dyes, toolbar=3Dyes, =
+height=3D400, width=3D400, top=3D2, left=3D2');=0A=
+		AdminWin.focus();=0A=
+	}=0A=
+	function help_window(helpurl) {=0A=
+		HelpWin =3D window.open( =
+helpurl,'HelpWindow','scrollbars=3Dyes,resizable=3Dyes,toolbar=3Dno,heigh=
+t=3D400,width=3D400');=0A=
+	}=0A=
+	</SCRIPT>
+
+<STYLE type=3Dtext/css>BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #ffffff; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+OL {
+	FONT-SIZE: x-small; COLOR: #333333; FONT-FAMILY: =
+verdana,arial,helvetica,sans-serif
+}
+UL {
+	FONT-SIZE: x-small; COLOR: #333333; FONT-FAMILY: =
+verdana,arial,helvetica,sans-serif
+}
+P {
+	FONT-SIZE: x-small; COLOR: #333333; FONT-FAMILY: =
+verdana,arial,helvetica,sans-serif
+}
+BODY {
+	FONT-SIZE: x-small; COLOR: #333333; FONT-FAMILY: =
+verdana,arial,helvetica,sans-serif
+}
+TD {
+	FONT-SIZE: x-small; COLOR: #333333; FONT-FAMILY: =
+verdana,arial,helvetica,sans-serif
+}
+TR {
+	FONT-SIZE: x-small; COLOR: #333333; FONT-FAMILY: =
+verdana,arial,helvetica,sans-serif
+}
+TH {
+	FONT-SIZE: x-small; COLOR: #333333; FONT-FAMILY: =
+verdana,arial,helvetica,sans-serif
+}
+FORM {
+	FONT-SIZE: x-small; COLOR: #333333; FONT-FAMILY: =
+verdana,arial,helvetica,sans-serif
+}
+H1 {
+	FONT-SIZE: x-large; FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+H2 {
+	FONT-SIZE: large; FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+H3 {
+	FONT-SIZE: medium; FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+H4 {
+	FONT-SIZE: small; FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+H5 {
+	FONT-SIZE: x-small; FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+H6 {
+	FONT-SIZE: xx-small; FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+PRE {
+	FONT-FAMILY: courier,sans-serif
+}
+TT {
+	FONT-FAMILY: courier,sans-serif
+}
+TABLE {
+	BACKGROUND: #ffffff
+}
+#main_table {
+	BACKGROUND: #ffffff
+}
+A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #204a87
+}
+LI {
+	MARGIN: 3px
+}
+A:visited {
+	COLOR: #103a77; TEXT-DECORATION: none
+}
+A:active {
+	TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+.logoimage {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FLOAT: left; BORDER-LEFT: 0px; =
+BORDER-BOTTOM: 0px
+}
+.titlebar {
+	FONT-WEIGHT: bold; COLOR: black; TEXT-DECORATION: none
+}
+A.tablink {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: black; TEXT-DECORATION: =
+none
+}
+A.tablink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: black; TEXT-DECORATION: =
+none
+}
+A.tablink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: black; TEXT-DECORATION: =
+none
+}
+A.tabsellink {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #0000be; =
+TEXT-DECORATION: none
+}
+A.tabsellink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #0000be; =
+TEXT-DECORATION: none
+}
+A.tabsellink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #0000be; =
+TEXT-DECORATION: none
+}
+#topnavibar TD {
+	HEIGHT: 37px
+}
+#nestednavibar TD {
+	HEIGHT: 24px; TEXT-ALIGN: center
+}
+#topnavibar A {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #204a87
+}
+#nestednavibar A {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #dddddd
+}
+#topnavibar A:hover {
+	COLOR: #3465a4; TEXT-DECORATION: underline
+}
+#nestednavibar A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+#topnavibar A.tabsellink {
+	FONT-WEIGHT: bold; COLOR: white
+}
+#nestednavibar A.tabsellink {
+	FONT-WEIGHT: bold; COLOR: white
+}
+#topnavibar .selected {
+	VERTICAL-ALIGN: middle; WIDTH: 12%; TEXT-ALIGN: center
+}
+#topnavibar .not-selected {
+	VERTICAL-ALIGN: middle; WIDTH: 12%; TEXT-ALIGN: center
+}
+#topnavibar .selected {
+	BACKGROUND-IMAGE: url(/themes/gforge/images/maemo/tab-bg-selected.png)
+}
+#topnavibar .not-selected {
+	BACKGROUND-IMAGE: url(/themes/gforge/images/maemo/tab-bg.png)
+}
+#nestednavibar .selected {
+	BACKGROUND-IMAGE: =
+url(/themes/gforge/images/maemo/nested-bg-selected.png)
+}
+#nestednavibar .not-selected {
+	BACKGROUND-IMAGE: url(/themes/gforge/images/maemo/nested-bg.png)
+}
+FORM INPUT {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ccc 1px =
+solid; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; =
+BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px =
+solid
+}
+FORM SELECT {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ccc 1px =
+solid; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; =
+BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px =
+solid
+}
+FORM TEXTAREA {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ccc 1px =
+solid; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; =
+BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px =
+solid
+}
+FORM SELECT {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; =
+PADDING-TOP: 1px
+}
+FORM TEXTAREA {
+	BACKGROUND-IMAGE: url(/themes/gforge/images/maemo/box-bg.png); =
+BACKGROUND-REPEAT: repeat-x
+}
+#content {
+	PADDING-RIGHT: 24px; PADDING-LEFT: 24px; PADDING-BOTTOM: 24px; =
+PADDING-TOP: 8px
+}
+#boxtop {
+	BACKGROUND-IMAGE: url(/themes/gforge/images/maemo/boxtop-bg.png); =
+HEIGHT: 24px
+}
+#boxmiddle {
+	BACKGROUND-IMAGE: url(/themes/gforge/images/maemo/boxtop-bg.png); =
+HEIGHT: 24px
+}
+#boxtop .topleft {
+	BACKGROUND-IMAGE: =
+url(/themes/gforge/images/maemo/boxtop-corner-bg.png); WIDTH: 8px
+}
+#boxtop .topright {
+	BACKGROUND-IMAGE: =
+url(/themes/gforge/images/maemo/boxtop-corner-bg.png); WIDTH: 8px
+}
+#boxmiddle .topleft {
+	BORDER-LEFT: #ddd 1px solid; WIDTH: 8px
+}
+#boxmiddle .topright {
+	BORDER-RIGHT: #ddd 1px solid; WIDTH: 8px
+}
+#boxtop .title {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; TEXT-ALIGN: center
+}
+#boxmiddle .title {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; TEXT-ALIGN: center
+}
+#boxcontent TD {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 12px; PADDING-LEFT: 12px; =
+FONT-SIZE: 11px; BACKGROUND-IMAGE: =
+url(/themes/gforge/images/maemo/box-bg.png); PADDING-BOTTOM: 12px; =
+BORDER-LEFT: #ddd 1px solid; PADDING-TOP: 12px; BORDER-BOTTOM: #ddd 1px =
+solid; BACKGROUND-REPEAT: repeat-x
+}
+HR {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; DISPLAY: block; =
+PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 12px 6px; BORDER-LEFT: =
+0px; LINE-HEIGHT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #ddd 1px solid; =
+HEIGHT: 1px
+}
+#mypage_project_icon {
+	PADDING-RIGHT: 10px
+}
+#mypage_project_name {
+=09
+}
+</STYLE>
+<LINK =
+href=3D"https://garage.maemo.org/plugins/scmsvn/viewcvs/styles.css"=20
+type=3Dtext/css rel=3Dstylesheet>
+<META content=3D"MSHTML 6.00.2900.3059" name=3DGENERATOR></HEAD>
+<BODY>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD id=3Dheader><A href=3D"http://maemo.org/"><IMG class=3Dlogoimage =
+
+      title=3D"maemo open source developer platform" alt=3Dmaemo=20
+      =
+src=3D"https://garage.maemo.org/themes/gforge/images//maemo/maemologo.png=
+">=20
+      </A></TD>
+    <TD>
+      <FORM action=3D/search/ method=3Dget>
+      <TABLE cellSpacing=3D0 cellPadding=3D0 border=3D0>
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV style=3D"FONT-SIZE: smaller" align=3Dcenter><SELECT=20
+            name=3Dtype_of_search> <OPTION value=3Dsoft =
+selected>=E8=BB=9F=E9=AB=94/=E7=BE=A4=E7=B5=84</OPTION>=20
+              <OPTION value=3Dpeople>=E4=BA=BA</OPTION> <OPTION=20
+            value=3Dskill>=E6=8A=80=E8=A1=93</OPTION></SELECT> =
+</DIV></TD>
+          <TD>&nbsp;</TD>
+          <TD><INPUT size=3D12 name=3Dwords></TD>
+          <TD>&nbsp;</TD>
+          <TD><INPUT type=3Dsubmit value=3D=E6=90=9C=E5=B0=8B =
+name=3DSearch></TD></TR></TBODY></TABLE></FORM></TD>
+    <TD></TD>
+    <TD align=3Dright><B><A=20
+      =
+href=3D"https://garage.maemo.org/account/login.php">=E7=99=BB=E5=85=A5</A=
+></B><BR><B><A=20
+      =
+href=3D"https://garage.maemo.org/account/register.php">=E6=96=B0=E5=B8=B3=
+=E8=99=9F</A></B> </TD>
+    <TD>&nbsp;&nbsp;</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR id=3Dtopnavibar>
+    <TD colSpan=3D5><!-- start tabs -->
+      <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+        <TBODY>
+        <TR>
+          <TD class=3Dnot-selected><A class=3Dtablink=20
+            =
+href=3D"https://garage.maemo.org/">=E9=A6=96=E9=A0=81</A></TD>
+          <TD class=3Dnot-selected colSpan=3D2><A class=3Dtablink=20
+            =
+href=3D"https://garage.maemo.org/my/">=E6=88=91=E7=9A=84=E9=A6=96=E9=A0=81=
+</A></TD>
+          <TD class=3Dnot-selected colSpan=3D2><A class=3Dtablink=20
+            =
+href=3D"https://garage.maemo.org/softwaremap/">=E8=BB=9F=E9=AB=94=E5=9C=B0=
+=E5=9C=96</A></TD>
+          <TD class=3Dnot-selected colSpan=3D2><A class=3Dtablink=20
+            =
+href=3D"https://garage.maemo.org/snippet/">=E5=88=86=E4=BA=AB=E7=A8=8B=E5=
+=BC=8F=E7=A2=BC</A></TD>
+          <TD class=3Dnot-selected colSpan=3D2><A class=3Dtablink=20
+            =
+href=3D"https://garage.maemo.org/people/">=E5=B0=8B=E6=B1=82=E5=8D=94=E5=8A=
+=A9</A></TD>
+          <TD class=3Dselected colSpan=3D2><A class=3Dtabsellink=20
+            =
+href=3D"https://garage.maemo.org/projects/mdictionary/">Maemo=20
+            Multilingual=20
+  Dictionary</A></TD></TR></TBODY></TABLE><!-- end tabs --></TD></TR>
+  <TR>
+    <TD vAlign=3Dtop width=3D"100%" colSpan=3D5>
+      <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+        <TBODY>
+        <TR id=3Dnestednavibar>
+          <TD><!-- start tabs -->
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD class=3Dnot-selected><A class=3Dtablink=20
+                  =
+href=3D"https://garage.maemo.org/projects/mdictionary/">=E6=91=98=E8=A6=81=
+</A></TD>
+                <TD class=3Dnot-selected colSpan=3D2><A class=3Dtablink=20
+                  =
+href=3D"https://garage.maemo.org/forum/?group_id=3D58">=E8=A8=8E=E8=AB=96=
+=E5=8D=80</A></TD>
+                <TD class=3Dnot-selected colSpan=3D2><A class=3Dtablink=20
+                  =
+href=3D"https://garage.maemo.org/tracker/?group_id=3D58">=E8=BF=BD=E8=B9=A4=
+</A></TD>
+                <TD class=3Dnot-selected colSpan=3D2><A class=3Dtablink=20
+                  =
+href=3D"https://garage.maemo.org/mail/?group_id=3D58">=E9=80=9A=E4=BF=A1=E8=
+=AB=96=E5=A3=87</A></TD>
+                <TD class=3Dnot-selected colSpan=3D2><A class=3Dtablink=20
+                  =
+href=3D"https://garage.maemo.org/docman/?group_id=3D58">=E6=96=87=E4=BB=B6=
+</A></TD>
+                <TD class=3Dnot-selected colSpan=3D2><A class=3Dtablink=20
+                  =
+href=3D"https://garage.maemo.org/news/?group_id=3D58">=E6=96=B0=E8=81=9E<=
+/A></TD>
+                <TD class=3Dselected colSpan=3D2><A class=3Dtabsellink=20
+                  =
+href=3D"https://garage.maemo.org/scm/?group_id=3D58">SCM</A></TD>
+                <TD class=3Dnot-selected colSpan=3D2><A class=3Dtablink=20
+                  =
+href=3D"https://garage.maemo.org/frs/?group_id=3D58">=E6=AA=94=E6=A1=88</=
+A></TD>
+                <TD class=3Dnot-selected colSpan=3D2><A class=3Dtablink=20
+                  =
+href=3D"https://garage.maemo.org/plugins/wiki/index.php?id=3D58&amp;type=3D=
+g">Wiki</A></TD></TR></TBODY></TABLE><!-- end tabs --></TD></TR>
+        <TR>
+          <TD id=3Dcontent vAlign=3Dtop width=3D"99%" bgColor=3Dwhite =
+colSpan=3D2>
+            <DIV class=3Dvc_navheader>
+            <FORM action=3D/plugins/scmsvn/viewcvs.php/ method=3Dget>
+            <TABLE=20
+            style=3D"PADDING-RIGHT: 0.1em; PADDING-LEFT: 0.1em; =
+PADDING-BOTTOM: 0.1em; PADDING-TOP: 0.1em">
+              <TBODY>
+              <TR>
+                <TD><STRONG><A=20
+                  =
+href=3D"https://garage.maemo.org/plugins/scmsvn/viewcvs.php/?root=3Dmdict=
+ionary&amp;pathrev=3D38">[mdictionary]</A>=20
+                  / <A=20
+                  =
+href=3D"https://garage.maemo.org/plugins/scmsvn/viewcvs.php/trunk/?root=3D=
+mdictionary&amp;pathrev=3D38">trunk</A>=20
+                  / <A=20
+                  =
+href=3D"https://garage.maemo.org/plugins/scmsvn/viewcvs.php/trunk/src/?ro=
+ot=3Dmdictionary&amp;pathrev=3D38">src</A>=20
+                  / <A=20
+                  =
+href=3D"https://garage.maemo.org/plugins/scmsvn/viewcvs.php/trunk/src/plu=
+gins/?root=3Dmdictionary&amp;pathrev=3D38">plugins</A>=20
+                  / <A=20
+                  =
+href=3D"https://garage.maemo.org/plugins/scmsvn/viewcvs.php/trunk/src/plu=
+gins/stardict/?root=3Dmdictionary&amp;pathrev=3D38">stardict</A>=20
+                  / <A=20
+                  =
+href=3D"https://garage.maemo.org/plugins/scmsvn/viewcvs.php/trunk/src/plu=
+gins/stardict/doc/?root=3Dmdictionary&amp;pathrev=3D38">doc</A>=20
+                  / <A=20
+                  =
+href=3D"https://garage.maemo.org/plugins/scmsvn/viewcvs.php/trunk/src/plu=
+gins/stardict/doc/DICTFILE_FORMAT?view=3Dlog&amp;root=3Dmdictionary&amp;p=
+athrev=3D38">DICTFILE_FORMAT</A>=20
+                  </STRONG></TD>
+                <TD=20
+style=3D"TEXT-ALIGN: right"></TD></TR></TBODY></TABLE></FORM></DIV>
+            <H1>View of =
+/trunk/src/plugins/stardict/doc/DICTFILE_FORMAT</H1>
+            <P style=3D"MARGIN: 0px"><A=20
+            =
+href=3D"https://garage.maemo.org/plugins/scmsvn/viewcvs.php/trunk/src/plu=
+gins/stardict/doc/?root=3Dmdictionary&amp;pathrev=3D38"><IMG=20
+            height=3D16 alt=3D"Parent Directory"=20
+            =
+src=3D"https://garage.maemo.org/plugins/scmsvn/viewcvs.php/*docroot*/imag=
+es/back_small.png"=20
+            width=3D16> Parent Directory</A> | <A=20
+            =
+href=3D"https://garage.maemo.org/plugins/scmsvn/viewcvs.php/trunk/src/plu=
+gins/stardict/doc/DICTFILE_FORMAT?view=3Dlog&amp;root=3Dmdictionary&amp;p=
+athrev=3D38"><IMG=20
+            alt=3D"Revision Log"=20
+            =
+src=3D"https://garage.maemo.org/plugins/scmsvn/viewcvs.php/*docroot*/imag=
+es/text.png">=20
+            Revision Log</A> </P>
+            <HR>
+
+            <DIV class=3Dvc_summary>Revision <A=20
+            =
+href=3D"https://garage.maemo.org/plugins/scmsvn/viewcvs.php?root=3Dmdicti=
+onary&amp;rev=3D38&amp;view=3Drev"><STRONG>38</STRONG></A>=20
+            - (<A=20
+            =
+href=3D"https://garage.maemo.org/plugins/scmsvn/viewcvs.php/*checkout*/tr=
+unk/src/plugins/stardict/doc/DICTFILE_FORMAT?root=3Dmdictionary&amp;rev=3D=
+38&amp;pathrev=3D38"><STRONG>download</STRONG></A>)=20
+            (<A=20
+            =
+href=3D"https://garage.maemo.org/plugins/scmsvn/viewcvs.php/trunk/src/plu=
+gins/stardict/doc/DICTFILE_FORMAT?annotate=3D38&amp;root=3Dmdictionary&am=
+p;pathrev=3D38"><STRONG>annotate</STRONG></A>)=20
+            <BR><EM>Thu Jan 11 14:50:58 2007 UTC</EM> (2 months, 1 week =
+ago) by=20
+            <EM>krzsas</EM> <BR>File size: 15782 byte(s) <PRE =
+class=3Dvc_log>WhiteStork 0.6.0</PRE></DIV>
+            <DIV><PRE>Format for StarDict dictionary files
+------------------------------------
+
+StarDict homepage: <A =
+href=3D"http://stardict.sourceforge.net/">http://stardict.sourceforge.net=
+/</A>
+
+{0}. Number and Byte-order Conventions
+When you record the numbers that identify sizes, offsets, etc., you
+should use 32-bit numbers, such as you might represent with a glong.
+
+In order to make StarDict work on different platforms, these numbers
+must be in network byte order.  You can ensure the correct byte order
+by using the g_htonl() function when creating dictionary files.
+Conversely, you should use g_ntohl() when reading dictionary files.
+
+Strings should be encoded in UTF-8.
+
+
+{1}. Files
+Every dictionary consists of these files:
+(1). somedict.ifo
+(2). somedict.idx or somedict.idx.gz
+(3). somedict.dict or somedict.dict.dz
+(4). somedict.syn (optional)
+
+You can use gzip -9 to compress the .idx file. If the .idx file are not=20
+compressed, the loading can be fast and save memory when using, compress =
+it=20
+will make the .idx file load into memory and make the quering become =
+faster=20
+when using.
+
+You can use dictzip to compress the .dict file.
+"dictzip" uses the same compression algorithm and file format as does =
+gzip,=20
+but provides a table that can be used to randomly access compressed =
+blocks=20
+in the file.  The use of 50-64kB blocks for compression typically =
+degrades=20
+compression by less than 10%, while maintaining acceptable random access =
+
+capabilities for all data in the file.  As an added benefit, files=20
+compressed with dictzip can be decompressed with gunzip.
+For more information about dictzip, refer to DICT project, please see:
+<A href=3D"http://www.dict.org/">http://www.dict.org/</A>
+
+When you create a dictionary, you should use .idx and .dict.dz in normal =
+
+case.
+
+Stardict will search for the .ifo file, then open the .idx or=20
+.idx.gz file and the .dict.dz or .dict file which is in the same =
+directory and=20
+has the same base name.
+
+
+
+{2}. The ".ifo" file's format.
+The .ifo file has the following format:
+
+StarDict's dict ifo file
+version=3D2.4.2
+[options]
+
+Note that the current "version" string must be "2.4.2".  If it's not,
+then StarDict will refuse to read the file.
+
+[options]
+---------
+In the example above, [options] expands to any of the following lines
+specifying information about the dictionary.  Each option is a keyword
+followed by an equal sign, then the value of that option, then a
+newline.  The options may be appear in any order.
+
+Note that the dictionary must have at least a bookname, a wordcount and =
+a=20
+idxfilesize, or the load will fail.  All other information is optional.  =
+All=20
+strings should be encoded in UTF-8.
+
+Available options:
+
+bookname=3D      // required
+wordcount=3D     // required
+synwordcount=3D  // required if ".syn" file exists.
+idxfilesize=3D   // required
+author=3D
+email=3D
+website=3D
+description=3D
+date=3D
+sametypesequence=3D // very important.
+
+
+wordcount is the count of word entries in .idx file, it must be right.
+
+idxfilesize is the size(in bytes) of the .idx file, even the .idx is =
+compressed=20
+to a .idx.gz file, this entry must record the original .idx file's size, =
+and it=20
+must be right too. The .gz file don't contain its original size =
+information,=20
+but knowing the original size can speed up the extraction to memory, as =
+you=20
+don't need to call realloc() for many times.
+
+
+The "sametypesequence" option is described in further detail below.
+
+***
+sametypesequence
+
+You should first familiarize yourself with the .dict file format
+described in the next section so that you can understand what effect
+this option has on the .dict file.
+
+If the sametypesequence option is set, it tells StarDict that each
+word's data in the .dict file will have the same sequence of datatypes.
+In this case, we expect a .dict file that's been optimized in two
+ways: the type identifiers should be omitted, and the size marker for
+the last data entry of each word should be omitted.
+
+Let's consider some concrete examples of the sametypesequence option.
+
+Suppose that a dictionary records many .wav files, and so sets:
+        sametypesequence=3DW
+In this case, each word's entry in the .dict file consists solely of a
+wav file.  In the .dict file, you would leave out the 'W' character
+before each entry, and you would also omit the 32-bit integer at the
+front of each .wav entry that would normally give the entry's length.
+You can do this since the length is known from the information in the
+idx file.
+
+As another example, suppose a dictionary contains phonetic information
+and a meaning for each word.  The sametypesequence option for this
+dictionary would be:
+        sametypesequence=3Dtm
+Once again, you can omit the 't' and 'm' characters before each data
+entry in the .dict file.  In addition, you should omit the terminating
+'\0' for the 'm' entry for each word in the .dict file, as the length
+of the meaning string can be inferred from the length of the phonetic
+string (still indicated by a terminating '\0') and the length of the
+entire word entry (listed in the .idx file).
+
+So for cases where the last data entry for each word normally requires
+a terminating '\0' character, you should omit this character in the
+dict file.  And for cases where the last data entry for each word
+normally requires an initial 32-bit number giving the length of the
+field (such as WAV and PNG entries), you must omit this number in the
+dictionary.
+
+Every dictionary should try to use the sametypesequence feature to
+save disk space.
+***
+
+
+{3}. The ".idx" file's format.
+The .idx file is just a word list.
+
+The word list is a sorted list of word entries.
+
+Each entry in the word list contains three fields, one after the other:
+     word_str;  // a utf-8 string terminated by '\0'.
+     word_data_offset;  // word data's offset in .dict file
+     word_data_size;  // word data's total size in .dict file    =20
+
+word_str gives the string representing this word.  It's the string
+that is "looked up" by the StarDict.
+
+Two or more entries may have the same "word_str" with different=20
+word_data_offset and word_data_size. This may be useful for some=20
+dictionaries. But this feature is only well supported by=20
+StarDict-2.4.8 and newer.
+
+The length of "word_str" should be less than 256. In other words,=20
+(strlen(word) &lt; 256).
+
+word_data_offset and word_data_size should both be 32-bit unsigned =
+numbers=20
+in network byte order.
+
+It is possible the different word_str have the same word_data_offset and =
+
+word_data_size, so multiple word index point to the same definition.
+But this is not recommended, for mutiple words have the same definition, =
+
+you may create a ".syn" file for them, see section 4 below.
+
+The word list must be sorted by calling stardict_strcmp() on the =
+"word_str"=20
+fields.  If the word list order is wrong, StarDict will fail to function =
+
+correctly!
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+gint stardict_strcmp(const gchar *s1, const gchar *s2)
+{
+	gint a;
+	a =3D g_ascii_strcasecmp(s1, s2);
+	if (a =3D=3D 0)
+		return strcmp(s1, s2);
+	else
+		return a;
+}
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+g_ascii_strcasecmp() is a glib function:
+Unlike the BSD strcasecmp() function, this only recognizes standard=20
+ASCII letters and ignores the locale, treating all non-ASCII characters=20
+as if they are not letters.
+
+stardict_strcmp() works fine with English characters, but the other
+locale characters' sorting is not so good, in this case, you can enable=20
+the collation feature, see section 6.
+
+
+{4}. The ",syn" file's format.
+This file is optional, and you should notice tree dictionary needn't =
+this file.
+Only StarDict-2.4.8 and newer support this file.
+
+The .syn file contains information for synonyms, that means, when you =
+input a=20
+synonym, StarDict will search another word that related to it.
+
+The format is simple. Each item contain one string and a number.
+synonym_word;  // a utf-8 string terminated by '\0'.
+original_word_index; // original word's index in .idx file.
+Then other items without separation.
+When you input synonym_word, StarDict will search original_word;
+
+The length of "synonym_word" should be less than 256. In other=20
+words, (strlen(word) &lt; 256).
+original_word_index is a 32-bit unsigned number in network byte order.
+Two or more items may have the same "synonym_word" with different=20
+original_word_index.
+The items must be sorted by stardict_strcmp() with synonym_word.
+
+
+{5}. The offset cache file's format.
+StarDict-2.4.8 start to support cache files, this feature can speed up=20
+loading and save memory as mmap() the cache file. The cache file names=20
+are .idx.oft and .syn.oft, the format is:
+First a utf-8 string terminated by '\0', then many 32-bit numbers as=20
+the wordoffset index, this index is sparse, and "ENTR_PER_PAGE=3D32",=20
+they are not stored in network byte order.
+The string must begin with:
+=3D=3D=3D=3D=3D
+StarDict's oft file
+version=3D2.4.8
+=3D=3D=3D=3D=3D
+Then a line like this:
+url=3D/usr/share/stardict/dic/stardict-somedict-2.4.2/somedict.idx
+This line should have a ending '\n'.
+
+StarDict will try to create the .oft file at the same directory of=20
+the .ifo file first, if failed, then try to create it at=20
+~/.cache/stardict/, ~/.cache is get by g_get_user_cache_dir().=20
+If two or more dictionaries have the same file name, StarDict will=20
+create somedict.idx.oft, somedict(2).idx.oft, somedict(3).idx.oft,=20
+etc. for them respectively, each with different "url=3D" in the=20
+beginning string.
+
+
+{6}. The collation file's format.
+StarDict-2.4.8 start to support collation, that sort the word=20
+list by collate function. It will create collation file which=20
+names .idx.clt and .syn.clt, the format is a little like offset=20
+cache file:
+First a utf-8 string terminated by '\0', then many 32-bit numbers as
+the index that sorted by the collate function, they are not stored=20
+in network byte order.
+The string must begin with:
+=3D=3D=3D=3D=3D
+StarDict's clt file
+version=3D2.4.8
+=3D=3D=3D=3D=3D
+Then two lines like this:
+url=3D/usr/share/stardict/dic/stardict-somedict-2.4.2/somedict.idx
+func=3D0
+The second line should have a ending '\n' too.
+
+StarDict support these collate functions currently:
+typedef enum {
+	UTF8_GENERAL_CI =3D 0,
+	UTF8_UNICODE_CI,
+	UTF8_BIN,
+	UTF8_CZECH_CI,
+	UTF8_DANISH_CI,
+	UTF8_ESPERANTO_CI,
+	UTF8_ESTONIAN_CI,
+	UTF8_HUNGARIAN_CI,
+	UTF8_ICELANDIC_CI,
+	UTF8_LATVIAN_CI,
+	UTF8_LITHUANIAN_CI,
+	UTF8_PERSIAN_CI,
+	UTF8_POLISH_CI,
+	UTF8_ROMAN_CI,
+	UTF8_ROMANIAN_CI,
+	UTF8_SLOVAK_CI,
+	UTF8_SLOVENIAN_CI,
+	UTF8_SPANISH_CI,
+	UTF8_SPANISH2_CI,
+	UTF8_SWEDISH_CI,
+	UTF8_TURKISH_CI,
+} CollateFunctions;
+These UTF8_*_CI functions comes from MySQL in fact.
+
+The file's locate path just like the .oft file.
+
+Notice, for "somedict.idx.gz" file, the corresponding collation=20
+file is somedict.idx.clt, but not somedict.idx.gz.clt, the=20
+"url=3D" is somedict.idx, not somedict.idx.gz. So after you gzip=20
+the .idx file, StarDict needn't create the .clt file again.
+
+
+{7}. The ".dict" file's format.
+The .dict file is a pure data sequence, as the offset and size of each
+word is recorded in the corresponding .idx file.
+
+If the "sametypesequence" option is not used in the .ifo file, then
+the .dict file has fields in the following order:
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+word_1_data_1_type; // a single char identifying the data type
+word_1_data_1_data; // the data
+word_1_data_2_type;
+word_1_data_2_data;
+...... // the number of data entries for each word is determined by
+       // word_data_size in .idx file
+word_2_data_1_type;
+word_2_data_1_data;
+......
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+It's important to note that each field in each word indicates its
+own length, as described below.  The number of possible fields per
+word is also not fixed, and is determined by simply reading data until
+you've read word_data_size bytes for that word.
+
+
+Suppose the "sametypesequence" option is used in the .idx file, and
+the option is set like this:
+sametypesequence=3Dtm
+Then the .dict file will look like this:
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+word_1_data_1_data
+word_1_data_2_data
+word_2_data_1_data
+word_2_data_2_data
+......
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+The first data entry for each word will have a terminating '\0', but
+the second entry will not have a terminating '\0'.  The omissions of
+the type chars and of the last field's size information are the
+optimizations required by the "sametypesequence" option described
+above.
+
+
+Type identifiers
+----------------
+Here are the single-character type identifiers that may be used with
+the "sametypesequence" option in the .idx file, or may appear in the
+dict file itself if the "sametypesequence" option is not used.
+
+Lower-case characters signify that a field's size is determined by a
+terminating '\0', while upper-case characters indicate that the data
+begins with a 32-bit unsigned integer that gives the length of the data
+field.
+
+'m'
+Word's pure text meaning.
+The data should be a utf-8 string ending with '\0'.
+
+'l'
+Word's pure text meaning.
+The data is NOT a utf-8 string, but is instead a string in locale
+encoding, ending with '\0'.  Sometimes using this type will save disk
+space, but its use is discouraged.
+
+'g'
+A utf-8 string which is marked up with the Pango text markup language.
+For more information about this markup language, See the "Pango
+Reference Manual."
+You might have it installed locally at:
+<A =
+href=3D"file:///usr/share/gtk-doc/html/pango/PangoMarkupFormat.html">file=
+:///usr/share/gtk-doc/html/pango/PangoMarkupFormat.html</A>
+
+'t'
+English phonetic string.
+The data should be a utf-8 string ending with '\0'.
+
+Here are some utf-8 phonetic characters:
+=CE=B8=CA=83=C5=8B=CA=A7=C3=B0=CA=92=C3=A6=C4=B1=CA=8C=CA=8A=C9=92=C9=9B=C9=
+=99=C9=91=C9=9C=C9=94=CB=8C=CB=88=CB=90=CB=91=E1=B9=83=E1=B9=87=E1=B8=B7
+=C3=A6=C9=91=C9=92=CA=8C=D3=99=D1=94=C5=8Bv=CE=B8=C3=B0=CA=83=CA=92=C9=9A=
+=CB=90=C9=A1=CB=8F=CB=8A=CB=8B
+
+'x'
+A utf-8 string which is marked up with the xdxf language.
+See <A href=3D"http://xdxf.sf.net/">http://xdxf.sf.net/</A>
+
+'y'
+Chinese YinBiao or Japanese KANA.
+The data should be a utf-8 string ending with '\0'.
+
+'k'
+KingSoft PowerWord's data. The data is a utf-8 string ending with '\0'.
+It is in XML format.
+
+'w'
+MediaWiki markup language.
+See <A =
+href=3D"http://meta.wikimedia.org/wiki/Help:Editing#The_wiki_markup">http=
+://meta.wikimedia.org/wiki/Help:Editing#The_wiki_markup</A>
+
+'W'
+wav file.
+The data begins with a network byte-ordered guint32 to identify the wav
+file's size, immediately followed by the file's content.
+
+'P'
+png file.
+The data begins with a network byte-ordered guint32 to identify the png
+file's size, immediately followed by the file's content.
+
+'X'
+this type identifier is reserved for experimental extensions.
+
+
+{8}. Tree Dictionary
+The tree dictionary support is used for information viewing, etc.
+
+A tree dictionary contains three file: sometreedict.ifo, =
+sometreedict.tdx.gz=20
+and sometreedict.dict.dz.
+
+It is better to compress the .tdx file, as it is always load into =
+memory.
+
+The .ifo file has the following format:
+
+StarDict's treedict ifo file
+version=3D2.4.2
+[options]
+
+Available options:
+
+bookname=3D      // required
+tdxfilesize=3D   // required
+wordcount=3D
+author=3D
+email=3D
+website=3D
+description=3D
+date=3D
+sametypesequence=3D
+
+wordcount is only used for info view in the dict manage dialog, so it is =
+not=20
+important in tree dictionary.
+
+The .tdx file is just the word list.
+-----------
+The word list is a tree list of word entries.
+
+Each entry in the word list contains four fields, one after the other:
+     word_str;  // a utf-8 string terminated by '\0'.
+     word_data_offset;  // word data's offset in .dict file
+     word_data_size;  // word data's total size in .dict file. it can be =
+0.
+     word_subentry_count; //have many sub word this entry has, 0 means =
+none.
+
+Subentry is immidiately followed by its parent entry. This make the =
+order is=20
+just as when a tree list with all its nodes extended, then sort from top =
+to=20
+bottom.
+
+word_data_offset, word_data_size and word_subentry_count should be =
+32-bit
+unsigned numbers in network byte order.
+
+The .dict file's format is the same as the normal dictionary.
+
+
+
+{9}. More information.
+You can read "src/lib.cpp", "src/dictmanagedlg.cpp" and
+"src/tools/*.cpp" for more information.
+
+After you have build a dictionary, you can use "stardict_verify" to =
+verify the=20
+dictionary files. You can find it at "src/tools/".
+
+If you have any questions, email me. :)
+
+Thanks to Will Robinson &lt;<A =
+href=3D"mailto:wsr23@stanford.edu">wsr23@stanford.edu</A>&gt; for =
+cleaning up this file's
+English.
+
+Hu Zheng &lt;<A =
+href=3D"mailto:huzheng_001@163.com">huzheng_001@163.com</A>&gt;
+<A href=3D"http://forlinux.yeah.net/">http://forlinux.yeah.net/</A>
+2006.6.15
+</PRE></DIV>
+            <HR>
+
+            <TABLE>
+              <TBODY>
+              <TR>
+                <TD>
+                  <ADDRESS><A=20
+                  =
+href=3D"mailto:viewcvs@maemo.org">viewcvs@maemo.org</A></ADDRESS><BR>Powe=
+red=20
+                  by <A href=3D"http://viewcvs.sourceforge.net/">ViewCVS =
+
+                  1.0-dev</A> </TD>
+                <TD style=3D"TEXT-ALIGN: right">
+                  <H3><A=20
+                  =
+href=3D"https://garage.maemo.org/plugins/scmsvn/viewcvs.php/*docroot*/hel=
+p_rootview.html">ViewCVS=20
+                  and CVS=20
+    =
+Help</A></H3></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></T=
+R></TBODY></TABLE><BR>
+<CENTER><A href=3D"https://maemo.org/legal/termsofuse.html"=20
+alt=3D"Terms of Use">Terms of Use</A>&nbsp;&nbsp;&nbsp; <A=20
+href=3D"https://maemo.org/legal/privacy_policy.html" alt=3D"Privacy =
+Policy">Privacy=20
+Policy</A>&nbsp;&nbsp;&nbsp; <A=20
+href=3D"http://maemo.org/legal/contrib_guideline.html"=20
+alt=3D"Contribution Guidelines">Contribution =
+Guidelines</A>&nbsp;&nbsp;&nbsp; <A=20
+href=3D"mailto:garage@maemo.org?subject=3Dgarage feedback"=20
+alt=3D"Send feedback">Feedback</A> <BR><BR><A =
+href=3D"http://gforge.org/"><IMG=20
+alt=3D"Powered By GForge Collaborative Development Environment"=20
+src=3D"https://garage.maemo.org/images/pow-gforge.png" border=3D0></A>=20
+</CENTER></BODY></HTML>
+
+------=_NextPart_000_004B_01C76FB1.A9478680
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://garage.maemo.org/themes/gforge/images//maemo/maemologo.png
+
+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
+Gn82/AAAAABJRU5ErkJggg==
+
+------=_NextPart_000_004B_01C76FB1.A9478680
+Content-Type: image/png
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://garage.maemo.org/plugins/scmsvn/viewcvs.php/*docroot*/images/back_small.png
+
+<?xml version=3D"1.0" encoding=3D"UTF-8"?>=0A=
+<!DOCTYPE html=0A=
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"=0A=
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=0A=
+=0A=
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en  =
+ ">=0A=
+=0A=
+  <head>=0A=
+	<meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3DUTF-8" />=0A=
+	<title>garage: Exiting with error</title>=0A=
+	<link rel=3D"alternate" title=3D"garage - Project News Highlights RSS" =
+href=3D"/export/rss_sfnews.php" type=3D"application/rss+xml"/>=0A=
+	<link rel=3D"alternate" title=3D"garage - Project News Highlights RSS" =
+href=3D"/export/rss20_news.php" type=3D"application/rss+xml"/>=0A=
+	<link rel=3D"alternate" title=3D"garage - New Projects RSS" =
+href=3D"/export/rss_sfprojects.php" type=3D"application/rss+xml"/>=0A=
+=0A=
+	<script language=3D"JavaScript" type=3D"text/javascript">=0A=
+	function admin_window(adminurl) {=0A=
+		AdminWin =3D window.open( adminurl, =
+'AdminWindow','scrollbars=3Dyes,resizable=3Dyes, toolbar=3Dyes, =
+height=3D400, width=3D400, top=3D2, left=3D2');=0A=
+		AdminWin.focus();=0A=
+	}=0A=
+	function help_window(helpurl) {=0A=
+		HelpWin =3D window.open( =
+helpurl,'HelpWindow','scrollbars=3Dyes,resizable=3Dyes,toolbar=3Dno,heigh=
+t=3D400,width=3D400');=0A=
+	}=0A=
+	</script>=0A=
+	=0A=
+=0A=
+=0A=
+<style type=3D"text/css">=0A=
+	<!--=0A=
+	body {=0A=
+                margin: 0 0 0 0;=0A=
+                padding: 0 0 0 0;=0A=
+                background: #ffffff;=0A=
+	}=0A=
+=0A=
+	ol,ul,p,body,td,tr,th,form { =0A=
+            font-family: verdana,arial,helvetica,sans-serif; =0A=
+            font-size:x-small;=0A=
+	    color: #333333;  =0A=
+        }=0A=
+=0A=
+	h1 { font-size: x-large; font-family: =
+verdana,arial,helvetica,sans-serif; }=0A=
+	h2 { font-size: large; font-family: verdana,arial,helvetica,sans-serif; =
+}=0A=
+	h3 { font-size: medium; font-family: =
+verdana,arial,helvetica,sans-serif; }=0A=
+	h4 { font-size: small; font-family: verdana,arial,helvetica,sans-serif; =
+}=0A=
+	h5 { font-size: x-small; font-family: =
+verdana,arial,helvetica,sans-serif; }=0A=
+	h6 { font-size: xx-small; font-family: =
+verdana,arial,helvetica,sans-serif; }=0A=
+=0A=
+	pre,tt { font-family: courier,sans-serif }=0A=
+        table { background: #ffffff; }=0A=
+        #main_table { background: #ffffff; }=0A=
+=0A=
+        a:link {=0A=
+          font-size: 11px;=0A=
+          font-weight: normal;=0A=
+          color: #204a87;=0A=
+        }=0A=
+=0A=
+	li { =0A=
+		margin: 3px;=0A=
+	}=0A=
+  =0A=
+	a:visited { =0A=
+		text-decoration:none; =0A=
+		color: #103a77; =0A=
+	}=0A=
+=0A=
+	a:active { text-decoration:none }=0A=
+=0A=
+	a:hover { =0A=
+		text-decoration:underline; =0A=
+		color:red =0A=
+	}=0A=
+	=0A=
+	.logoimage { border: 0; float:left; }=0A=
+	=0A=
+	.titlebar { =0A=
+		color: black; =0A=
+		text-decoration: none; =0A=
+		font-weight: bold; =0A=
+	}=0A=
+=0A=
+	a.tablink { color: black; text-decoration: none; font-weight: bold; =
+font-size: xx-small; }=0A=
+	a.tablink:visited { color: black; text-decoration: none; font-weight: =
+bold; font-size: xx-small; }=0A=
+	a.tablink:hover { text-decoration: none; color: black; font-weight: =
+bold; font-size: xx-small; }=0A=
+	a.tabsellink { color: #0000be; text-decoration: none; font-weight: =
+bold; font-size: xx-small; }=0A=
+	a.tabsellink:visited { color: #0000be; text-decoration: none; =
+font-weight: bold; font-size: xx-small; }=0A=
+	a.tabsellink:hover { text-decoration: none; color: #0000be; =
+font-weight: bold; font-size: xx-small; }=0A=
+=0A=
+       #topnavibar td {=0A=
+	        height: 37px;=0A=
+        }=0A=
+        #nestednavibar td {=0A=
+	        height: 24px;=0A=
+	        text-align: center;=0A=
+        }=0A=
+        #topnavibar a {=0A=
+			font-size: 11px;=0A=
+			font-weight: normal;=0A=
+          	color: #204a87;=0A=
+        }=0A=
+        #nestednavibar a {=0A=
+          font-size: 9px;=0A=
+          font-weight: normal;=0A=
+          color: #dddddd;=0A=
+       }=0A=
+       #topnavibar a:hover {=0A=
+          color: #3465a4;=0A=
+          text-decoration: underline;=0A=
+        }=0A=
+       #nestednavibar a:hover {=0A=
+          color: #ffffff;=0A=
+          text-decoration: underline;=0A=
+        }=0A=
+=0A=
+       #topnavibar a.tabsellink, #nestednavibar a.tabsellink {=0A=
+          font-weight: bold;=0A=
+          color: white;=0A=
+        }=0A=
+        #topnavibar .selected, #topnavibar .not-selected {=0A=
+          vertical-align: middle;=0A=
+          width: 12%; =0A=
+          text-align: center; =0A=
+        }=0A=
+=0A=
+        #topnavibar .selected {        =0A=
+          background-image: =
+url("/themes/gforge/images/maemo/tab-bg-selected.png");=0A=
+        }=0A=
+=0A=
+        #topnavibar .not-selected {        =0A=
+          background-image: =
+url("/themes/gforge/images/maemo/tab-bg.png");=0A=
+        }=0A=
+=0A=
+        #nestednavibar .selected {        =0A=
+          background-image: =
+url("/themes/gforge/images/maemo/nested-bg-selected.png");=0A=
+        }=0A=
+=0A=
+        #nestednavibar .not-selected {        =0A=
+          background-image: =
+url("/themes/gforge/images/maemo/nested-bg.png");=0A=
+        }=0A=
+=0A=
+        form input, form select, form textarea {=0A=
+          border: 1px solid #ccc;=0A=
+          font-size: 11px;=0A=
+          padding: 2px;=0A=
+        }=0A=
+=0A=
+        form select {=0A=
+          padding: 1px;=0A=
+        }=0A=
+=0A=
+        form textarea {=0A=
+          background-image: =
+url("/themes/gforge/images/maemo/box-bg.png");=0A=
+          background-repeat: repeat-x;       =0A=
+        }=0A=
+=0A=
+        #content {=0A=
+          padding: 8px 24px 24px 24px;=0A=
+        }=0A=
+=0A=
+        #boxtop, #boxmiddle {=0A=
+          background-image: =
+url("/themes/gforge/images/maemo/boxtop-bg.png");=0A=
+          height: 24px;=0A=
+        }=0A=
+=0A=
+        #boxtop .topleft {=0A=
+          background-image: =
+url("/themes/gforge/images/maemo/boxtop-corner-bg.png");=0A=
+          width: 8px;=0A=
+        }=0A=
+=0A=
+        #boxtop .topright {=0A=
+          background-image: =
+url("/themes/gforge/images/maemo/boxtop-corner-bg.png");=0A=
+          width: 8px;=0A=
+        }=0A=
+=0A=
+        #boxmiddle .topleft {=0A=
+          width: 8px;=0A=
+          border-left: 1px solid #ddd;=0A=
+        }=0A=
+=0A=
+        #boxmiddle .topright {=0A=
+          width: 8px;=0A=
+          border-right: 1px solid #ddd;=0A=
+        }=0A=
+=0A=
+        #boxtop .title, #boxmiddle .title {=0A=
+          font-size: 11px;=0A=
+          text-align: center;=0A=
+          font-weight: bold;=0A=
+        }=0A=
+  =0A=
+        #boxcontent td {=0A=
+          background-image: =
+url("/themes/gforge/images/maemo/box-bg.png");=0A=
+          padding: 12px;=0A=
+          font-size: 11px;=0A=
+          border-left: 1px solid #ddd;=0A=
+          border-right: 1px solid #ddd;=0A=
+          border-bottom: 1px solid #ddd;=0A=
+          background-repeat: repeat-x;       =0A=
+        }=0A=
+=0A=
+        hr {=0A=
+        	margin: 12px 6px 12px 6px;=0A=
+			padding: 0;=0A=
+	  		border-bottom: 1px solid #ddd;=0A=
+            border-top: 0px;=0A=
+            border-left: 0px;=0A=
+            border-right: 0px;=0A=
+            line-height: 0px;=0A=
+            height: 1px;=0A=
+            display: block;=0A=
+        }=0A=
+=0A=
+        #mypage_project_icon {=0A=
+		    padding-right: 10px;=0A=
+		}=0A=
+=0A=
+	#mypage_project_name {=0A=
+            =0A=
+	}=0A=
+  =0A=
+		-->=0A=
+</style>=0A=
+<link rel=3D"stylesheet" type=3D"text/css" =
+href=3D"/plugins/scmsvn/viewcvs/styles.css" /></head>=0A=
+=0A=
+<body>=0A=
+=0A=
+<table border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">=0A=
+	<tr>=0A=
+		<td id=3D"header">=0A=
+                 <a href=3D"http://maemo.org">=0A=
+                  <img class=3D"logoimage" alt=3D"maemo" =
+src=3D"/themes/gforge/images//maemo/maemologo.png" title=3D"maemo open =
+source developer platform"/>=0A=
+                 </a>=0A=
+                </td>=0A=
+		<td>=0A=
+		<form action=3D"/search/" method=3D"get">=0A=
+		<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=0A=
+		<tr><td>=0A=
+		<div align=3D"center" style=3D"font-size:smaller">=0A=
+<select name=3D"type_of_search">=0A=
+<option value=3D"soft">Software/Group</option>=0A=
+<option value=3D"people">People</option>=0A=
+<option value=3D"skill">Skill</option>=0A=
+</select>=0A=
+</div>=0A=
+</td>=0A=
+<td>&nbsp;</td>=0A=
+<td><input type=3D"text" size=3D"12" name=3D"words" value=3D"" /></td>=0A=
+<td>&nbsp;</td>=0A=
+<td><input type=3D"submit" name=3D"Search" value=3D"Search" /></td></tr>=0A=
+</table>=0A=
+</form></td>=0A=
+                <td></td>=0A=
+		<td align=3D"right">				<b><a href=3D"/account/login.php">Log =
+In</a></b><br />=0A=
+				<b><a href=3D"/account/register.php">New Account</a></b>=0A=
+				</td>=0A=
+		<td>&nbsp;&nbsp;</td>=0A=
+	</tr>=0A=
+</table>=0A=
+=0A=
+<table border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">=0A=
+    <tr id=3D"topnavibar">=0A=
+	    <td colspan=3D"5">=0A=
+        =0A=
+=0A=
+		<!-- start tabs -->=0A=
+=0A=
+		<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">=0A=
+		<tr>=0A=
+                                 <td  class=3D"selected"><a =
+class=3D"tabsellink" href=3D"/">Home</a></td>=0A=
+				 <td colspan=3D"2" class=3D"not-selected"><a class=3D"tablink" =
+href=3D"/my/">My&nbsp;Page</a></td>=0A=
+				 <td colspan=3D"2" class=3D"not-selected"><a class=3D"tablink" =
+href=3D"/softwaremap/">Project&nbsp;Cloud</a></td>=0A=
+				 <td colspan=3D"2" class=3D"not-selected"><a class=3D"tablink" =
+href=3D"/snippet/">Code&nbsp;Snippets</a></td>=0A=
+                                 <td colspan=3D"2" =
+class=3D"not-selected"><a class=3D"tablink" =
+href=3D"/people/">Project&nbsp;Openings</a></td></tr></table> =0A=
+		<!-- end tabs -->		</td>=0A=
+	</tr>=0A=
+	<tr>=0A=
+        <td valign=3D"top" width=3D"100%" colspan=3D"5">=0A=
+            <table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0">=0A=
+                            <tr>=0A=
+                    <td id=3D"content" valign=3D"top" width=3D"99%" =
+bgcolor=3D"white" colspan=3D"2">         =0A=
+	                <h2><span style=3D"color:#FF3333">ERROR - No group_id =
+was chosen</span></h2><p>No group Id was chosen</p>                    =
+</td>=0A=
+                </tr>=0A=
+            </table>=0A=
+        </td>=0A=
+    </tr>=0A=
+</table>=0A=
+=0A=
+<br/>=0A=
+<center>=0A=
+    <a href=3D"https://maemo.org/legal/termsofuse.html" alt=3D"Terms of =
+Use">Terms of Use</a>&nbsp;&nbsp;&nbsp;=0A=
+    <a href=3D"https://maemo.org/legal/privacy_policy.html" =
+alt=3D"Privacy Policy">Privacy Policy</a>&nbsp;&nbsp;&nbsp;=0A=
+    <a href=3D"http://maemo.org/legal/contrib_guideline.html" =
+alt=3D"Contribution Guidelines">Contribution =
+Guidelines</a>&nbsp;&nbsp;&nbsp;=0A=
+    <a href=3D"mailto:garage@maemo.org?subject=3Dgarage feedback" =
+alt=3D"Send feedback">Feedback</a>=0A=
+    <br/><br/>=0A=
+    <a href=3D"http://gforge.org/"><img src=3D"/images/pow-gforge.png" =
+alt=3D"Powered By GForge Collaborative Development Environment" =
+border=3D"0"/></a>=0A=
+</center>=0A=
+=0A=
+</body>=0A=
+</html>=0A=
+=0A=
+
+------=_NextPart_000_004B_01C76FB1.A9478680
+Content-Type: image/png
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://garage.maemo.org/plugins/scmsvn/viewcvs.php/*docroot*/images/text.png
+
+<?xml version=3D"1.0" encoding=3D"UTF-8"?>=0A=
+<!DOCTYPE html=0A=
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"=0A=
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=0A=
+=0A=
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en  =
+ ">=0A=
+=0A=
+  <head>=0A=
+	<meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3DUTF-8" />=0A=
+	<title>garage: Exiting with error</title>=0A=
+	<link rel=3D"alternate" title=3D"garage - Project News Highlights RSS" =
+href=3D"/export/rss_sfnews.php" type=3D"application/rss+xml"/>=0A=
+	<link rel=3D"alternate" title=3D"garage - Project News Highlights RSS" =
+href=3D"/export/rss20_news.php" type=3D"application/rss+xml"/>=0A=
+	<link rel=3D"alternate" title=3D"garage - New Projects RSS" =
+href=3D"/export/rss_sfprojects.php" type=3D"application/rss+xml"/>=0A=
+=0A=
+	<script language=3D"JavaScript" type=3D"text/javascript">=0A=
+	function admin_window(adminurl) {=0A=
+		AdminWin =3D window.open( adminurl, =
+'AdminWindow','scrollbars=3Dyes,resizable=3Dyes, toolbar=3Dyes, =
+height=3D400, width=3D400, top=3D2, left=3D2');=0A=
+		AdminWin.focus();=0A=
+	}=0A=
+	function help_window(helpurl) {=0A=
+		HelpWin =3D window.open( =
+helpurl,'HelpWindow','scrollbars=3Dyes,resizable=3Dyes,toolbar=3Dno,heigh=
+t=3D400,width=3D400');=0A=
+	}=0A=
+	</script>=0A=
+	=0A=
+=0A=
+=0A=
+<style type=3D"text/css">=0A=
+	<!--=0A=
+	body {=0A=
+                margin: 0 0 0 0;=0A=
+                padding: 0 0 0 0;=0A=
+                background: #ffffff;=0A=
+	}=0A=
+=0A=
+	ol,ul,p,body,td,tr,th,form { =0A=
+            font-family: verdana,arial,helvetica,sans-serif; =0A=
+            font-size:x-small;=0A=
+	    color: #333333;  =0A=
+        }=0A=
+=0A=
+	h1 { font-size: x-large; font-family: =
+verdana,arial,helvetica,sans-serif; }=0A=
+	h2 { font-size: large; font-family: verdana,arial,helvetica,sans-serif; =
+}=0A=
+	h3 { font-size: medium; font-family: =
+verdana,arial,helvetica,sans-serif; }=0A=
+	h4 { font-size: small; font-family: verdana,arial,helvetica,sans-serif; =
+}=0A=
+	h5 { font-size: x-small; font-family: =
+verdana,arial,helvetica,sans-serif; }=0A=
+	h6 { font-size: xx-small; font-family: =
+verdana,arial,helvetica,sans-serif; }=0A=
+=0A=
+	pre,tt { font-family: courier,sans-serif }=0A=
+        table { background: #ffffff; }=0A=
+        #main_table { background: #ffffff; }=0A=
+=0A=
+        a:link {=0A=
+          font-size: 11px;=0A=
+          font-weight: normal;=0A=
+          color: #204a87;=0A=
+        }=0A=
+=0A=
+	li { =0A=
+		margin: 3px;=0A=
+	}=0A=
+  =0A=
+	a:visited { =0A=
+		text-decoration:none; =0A=
+		color: #103a77; =0A=
+	}=0A=
+=0A=
+	a:active { text-decoration:none }=0A=
+=0A=
+	a:hover { =0A=
+		text-decoration:underline; =0A=
+		color:red =0A=
+	}=0A=
+	=0A=
+	.logoimage { border: 0; float:left; }=0A=
+	=0A=
+	.titlebar { =0A=
+		color: black; =0A=
+		text-decoration: none; =0A=
+		font-weight: bold; =0A=
+	}=0A=
+=0A=
+	a.tablink { color: black; text-decoration: none; font-weight: bold; =
+font-size: xx-small; }=0A=
+	a.tablink:visited { color: black; text-decoration: none; font-weight: =
+bold; font-size: xx-small; }=0A=
+	a.tablink:hover { text-decoration: none; color: black; font-weight: =
+bold; font-size: xx-small; }=0A=
+	a.tabsellink { color: #0000be; text-decoration: none; font-weight: =
+bold; font-size: xx-small; }=0A=
+	a.tabsellink:visited { color: #0000be; text-decoration: none; =
+font-weight: bold; font-size: xx-small; }=0A=
+	a.tabsellink:hover { text-decoration: none; color: #0000be; =
+font-weight: bold; font-size: xx-small; }=0A=
+=0A=
+       #topnavibar td {=0A=
+	        height: 37px;=0A=
+        }=0A=
+        #nestednavibar td {=0A=
+	        height: 24px;=0A=
+	        text-align: center;=0A=
+        }=0A=
+        #topnavibar a {=0A=
+			font-size: 11px;=0A=
+			font-weight: normal;=0A=
+          	color: #204a87;=0A=
+        }=0A=
+        #nestednavibar a {=0A=
+          font-size: 9px;=0A=
+          font-weight: normal;=0A=
+          color: #dddddd;=0A=
+       }=0A=
+       #topnavibar a:hover {=0A=
+          color: #3465a4;=0A=
+          text-decoration: underline;=0A=
+        }=0A=
+       #nestednavibar a:hover {=0A=
+          color: #ffffff;=0A=
+          text-decoration: underline;=0A=
+        }=0A=
+=0A=
+       #topnavibar a.tabsellink, #nestednavibar a.tabsellink {=0A=
+          font-weight: bold;=0A=
+          color: white;=0A=
+        }=0A=
+        #topnavibar .selected, #topnavibar .not-selected {=0A=
+          vertical-align: middle;=0A=
+          width: 12%; =0A=
+          text-align: center; =0A=
+        }=0A=
+=0A=
+        #topnavibar .selected {        =0A=
+          background-image: =
+url("/themes/gforge/images/maemo/tab-bg-selected.png");=0A=
+        }=0A=
+=0A=
+        #topnavibar .not-selected {        =0A=
+          background-image: =
+url("/themes/gforge/images/maemo/tab-bg.png");=0A=
+        }=0A=
+=0A=
+        #nestednavibar .selected {        =0A=
+          background-image: =
+url("/themes/gforge/images/maemo/nested-bg-selected.png");=0A=
+        }=0A=
+=0A=
+        #nestednavibar .not-selected {        =0A=
+          background-image: =
+url("/themes/gforge/images/maemo/nested-bg.png");=0A=
+        }=0A=
+=0A=
+        form input, form select, form textarea {=0A=
+          border: 1px solid #ccc;=0A=
+          font-size: 11px;=0A=
+          padding: 2px;=0A=
+        }=0A=
+=0A=
+        form select {=0A=
+          padding: 1px;=0A=
+        }=0A=
+=0A=
+        form textarea {=0A=
+          background-image: =
+url("/themes/gforge/images/maemo/box-bg.png");=0A=
+          background-repeat: repeat-x;       =0A=
+        }=0A=
+=0A=
+        #content {=0A=
+          padding: 8px 24px 24px 24px;=0A=
+        }=0A=
+=0A=
+        #boxtop, #boxmiddle {=0A=
+          background-image: =
+url("/themes/gforge/images/maemo/boxtop-bg.png");=0A=
+          height: 24px;=0A=
+        }=0A=
+=0A=
+        #boxtop .topleft {=0A=
+          background-image: =
+url("/themes/gforge/images/maemo/boxtop-corner-bg.png");=0A=
+          width: 8px;=0A=
+        }=0A=
+=0A=
+        #boxtop .topright {=0A=
+          background-image: =
+url("/themes/gforge/images/maemo/boxtop-corner-bg.png");=0A=
+          width: 8px;=0A=
+        }=0A=
+=0A=
+        #boxmiddle .topleft {=0A=
+          width: 8px;=0A=
+          border-left: 1px solid #ddd;=0A=
+        }=0A=
+=0A=
+        #boxmiddle .topright {=0A=
+          width: 8px;=0A=
+          border-right: 1px solid #ddd;=0A=
+        }=0A=
+=0A=
+        #boxtop .title, #boxmiddle .title {=0A=
+          font-size: 11px;=0A=
+          text-align: center;=0A=
+          font-weight: bold;=0A=
+        }=0A=
+  =0A=
+        #boxcontent td {=0A=
+          background-image: =
+url("/themes/gforge/images/maemo/box-bg.png");=0A=
+          padding: 12px;=0A=
+          font-size: 11px;=0A=
+          border-left: 1px solid #ddd;=0A=
+          border-right: 1px solid #ddd;=0A=
+          border-bottom: 1px solid #ddd;=0A=
+          background-repeat: repeat-x;       =0A=
+        }=0A=
+=0A=
+        hr {=0A=
+        	margin: 12px 6px 12px 6px;=0A=
+			padding: 0;=0A=
+	  		border-bottom: 1px solid #ddd;=0A=
+            border-top: 0px;=0A=
+            border-left: 0px;=0A=
+            border-right: 0px;=0A=
+            line-height: 0px;=0A=
+            height: 1px;=0A=
+            display: block;=0A=
+        }=0A=
+=0A=
+        #mypage_project_icon {=0A=
+		    padding-right: 10px;=0A=
+		}=0A=
+=0A=
+	#mypage_project_name {=0A=
+            =0A=
+	}=0A=
+  =0A=
+		-->=0A=
+</style>=0A=
+<link rel=3D"stylesheet" type=3D"text/css" =
+href=3D"/plugins/scmsvn/viewcvs/styles.css" /></head>=0A=
+=0A=
+<body>=0A=
+=0A=
+<table border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">=0A=
+	<tr>=0A=
+		<td id=3D"header">=0A=
+                 <a href=3D"http://maemo.org">=0A=
+                  <img class=3D"logoimage" alt=3D"maemo" =
+src=3D"/themes/gforge/images//maemo/maemologo.png" title=3D"maemo open =
+source developer platform"/>=0A=
+                 </a>=0A=
+                </td>=0A=
+		<td>=0A=
+		<form action=3D"/search/" method=3D"get">=0A=
+		<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=0A=
+		<tr><td>=0A=
+		<div align=3D"center" style=3D"font-size:smaller">=0A=
+<select name=3D"type_of_search">=0A=
+<option value=3D"soft">Software/Group</option>=0A=
+<option value=3D"people">People</option>=0A=
+<option value=3D"skill">Skill</option>=0A=
+</select>=0A=
+</div>=0A=
+</td>=0A=
+<td>&nbsp;</td>=0A=
+<td><input type=3D"text" size=3D"12" name=3D"words" value=3D"" /></td>=0A=
+<td>&nbsp;</td>=0A=
+<td><input type=3D"submit" name=3D"Search" value=3D"Search" /></td></tr>=0A=
+</table>=0A=
+</form></td>=0A=
+                <td></td>=0A=
+		<td align=3D"right">				<b><a href=3D"/account/login.php">Log =
+In</a></b><br />=0A=
+				<b><a href=3D"/account/register.php">New Account</a></b>=0A=
+				</td>=0A=
+		<td>&nbsp;&nbsp;</td>=0A=
+	</tr>=0A=
+</table>=0A=
+=0A=
+<table border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">=0A=
+    <tr id=3D"topnavibar">=0A=
+	    <td colspan=3D"5">=0A=
+        =0A=
+=0A=
+		<!-- start tabs -->=0A=
+=0A=
+		<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">=0A=
+		<tr>=0A=
+                                 <td  class=3D"selected"><a =
+class=3D"tabsellink" href=3D"/">Home</a></td>=0A=
+				 <td colspan=3D"2" class=3D"not-selected"><a class=3D"tablink" =
+href=3D"/my/">My&nbsp;Page</a></td>=0A=
+				 <td colspan=3D"2" class=3D"not-selected"><a class=3D"tablink" =
+href=3D"/softwaremap/">Project&nbsp;Cloud</a></td>=0A=
+				 <td colspan=3D"2" class=3D"not-selected"><a class=3D"tablink" =
+href=3D"/snippet/">Code&nbsp;Snippets</a></td>=0A=
+                                 <td colspan=3D"2" =
+class=3D"not-selected"><a class=3D"tablink" =
+href=3D"/people/">Project&nbsp;Openings</a></td></tr></table> =0A=
+		<!-- end tabs -->		</td>=0A=
+	</tr>=0A=
+	<tr>=0A=
+        <td valign=3D"top" width=3D"100%" colspan=3D"5">=0A=
+            <table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0">=0A=
+                            <tr>=0A=
+                    <td id=3D"content" valign=3D"top" width=3D"99%" =
+bgcolor=3D"white" colspan=3D"2">         =0A=
+	                <h2><span style=3D"color:#FF3333">ERROR - No group_id =
+was chosen</span></h2><p>No group Id was chosen</p>                    =
+</td>=0A=
+                </tr>=0A=
+            </table>=0A=
+        </td>=0A=
+    </tr>=0A=
+</table>=0A=
+=0A=
+<br/>=0A=
+<center>=0A=
+    <a href=3D"https://maemo.org/legal/termsofuse.html" alt=3D"Terms of =
+Use">Terms of Use</a>&nbsp;&nbsp;&nbsp;=0A=
+    <a href=3D"https://maemo.org/legal/privacy_policy.html" =
+alt=3D"Privacy Policy">Privacy Policy</a>&nbsp;&nbsp;&nbsp;=0A=
+    <a href=3D"http://maemo.org/legal/contrib_guideline.html" =
+alt=3D"Contribution Guidelines">Contribution =
+Guidelines</a>&nbsp;&nbsp;&nbsp;=0A=
+    <a href=3D"mailto:garage@maemo.org?subject=3Dgarage feedback" =
+alt=3D"Send feedback">Feedback</a>=0A=
+    <br/><br/>=0A=
+    <a href=3D"http://gforge.org/"><img src=3D"/images/pow-gforge.png" =
+alt=3D"Powered By GForge Collaborative Development Environment" =
+border=3D"0"/></a>=0A=
+</center>=0A=
+=0A=
+</body>=0A=
+</html>=0A=
+=0A=
+
+------=_NextPart_000_004B_01C76FB1.A9478680
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://garage.maemo.org/images/pow-gforge.png
+
+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
+BgBYAQSqPoeTywAAAABJRU5ErkJggg==
+
+------=_NextPart_000_004B_01C76FB1.A9478680
+Content-Type: text/css;
+	charset="big5"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://garage.maemo.org/plugins/scmsvn/viewcvs/styles.css
+
+HTML {
+	COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+BODY {
+	COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+A:link {
+	COLOR: #0000ff
+}
+A:visited {
+	COLOR: #880088
+}
+A:active {
+	COLOR: #0000ff
+}
+IMG {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium =
+none; BORDER-BOTTOM: medium none
+}
+TABLE {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN: 0px; =
+BORDER-LEFT: medium none; WIDTH: 100%; BORDER-BOTTOM: medium none
+}
+TABLE.auto {
+	WIDTH: auto
+}
+TR {
+	VERTICAL-ALIGN: top
+}
+TD {
+	VERTICAL-ALIGN: top
+}
+TH {
+	VERTICAL-ALIGN: top
+}
+FORM {
+	MARGIN: 0px
+}
+.vc_navheader {
+	BACKGROUND-COLOR: #cccccc
+}
+.vc_header {
+	VERTICAL-ALIGN: top; BACKGROUND-COLOR: #cccccc; TEXT-ALIGN: left
+}
+.vc_header_sort {
+	BACKGROUND-COLOR: #88ff88; TEXT-ALIGN: left
+}
+.vc_row_even {
+	BACKGROUND-COLOR: #ffffff
+}
+.vc_row_odd {
+	BACKGROUND-COLOR: #ccccee
+}
+.vc_log {
+	WORD-WRAP: break-word
+}
+.vc_summary {
+	BACKGROUND-COLOR: #eeeeee
+}
+.vc_diff_header {
+	BACKGROUND-COLOR: #ffffff
+}
+.vc_diff_chunk_header {
+	BACKGROUND-COLOR: #99cccc
+}
+.vc_diff_chunk_extra {
+	FONT-SIZE: smaller
+}
+.vc_diff_empty {
+	FONT-SIZE: smaller; FONT-FAMILY: sans-serif; BACKGROUND-COLOR: #cccccc
+}
+.vc_diff_add {
+	FONT-SIZE: smaller; FONT-FAMILY: sans-serif; BACKGROUND-COLOR: #aaffaa
+}
+.vc_diff_remove {
+	FONT-SIZE: smaller; FONT-FAMILY: sans-serif; BACKGROUND-COLOR: #ffaaaa
+}
+.vc_diff_change {
+	FONT-SIZE: smaller; FONT-FAMILY: sans-serif; BACKGROUND-COLOR: #ffff77
+}
+.vc_diff_change_empty {
+	FONT-SIZE: smaller; FONT-FAMILY: sans-serif; BACKGROUND-COLOR: #eeee77
+}
+.vc_diff_nochange {
+	FONT-SIZE: smaller; FONT-FAMILY: sans-serif
+}
+.vc_raw_diff {
+	FONT-SIZE: smaller; BACKGROUND-COLOR: #cccccc
+}
+.vc_blame_line {
+	PADDING-RIGHT: 1em; FONT-SIZE: smaller; FONT-FAMILY: monospace; =
+WHITE-SPACE: nowrap; TEXT-ALIGN: right
+}
+.vc_blame_author {
+	PADDING-RIGHT: 1em; FONT-SIZE: smaller; FONT-FAMILY: monospace; =
+WHITE-SPACE: nowrap; TEXT-ALIGN: right
+}
+.vc_blame_rev {
+	PADDING-RIGHT: 1em; FONT-SIZE: smaller; FONT-FAMILY: monospace; =
+WHITE-SPACE: nowrap; TEXT-ALIGN: right
+}
+.vc_blame_text {
+	FONT-SIZE: smaller; WIDTH: 100%; FONT-FAMILY: monospace; WHITE-SPACE: =
+pre; TEXT-ALIGN: left
+}
+.vc_query_form {
+	BACKGROUND-COLOR: #e6e6e6
+}
+
+------=_NextPart_000_004B_01C76FB1.A9478680--

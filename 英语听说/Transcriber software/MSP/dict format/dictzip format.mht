@@ -1,0 +1,312 @@
+From: <¢DN Microsoft Internet Explorer 5 Ax|s>
+Subject: dictzip/1
+Date: Tue, 27 Mar 2007 14:27:10 -0700
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.ibr.cs.tu-bs.de/cgi-bin/dwww?type=runman&location=DICTZIP/1
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><TITLE>dictzip/1</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.3059" name=3DGENERATOR></HEAD>
+<BODY text=3D#000000 vLink=3D#0000ff aLink=3D#ff0000 link=3D#0000cc =
+bgColor=3D#ffffff><!-- vim:set ft=3Dhtml: --><PRE class=3Dman><A =
+href=3D"http://www.ibr.cs.tu-bs.de/cgi-bin/dwww?type=3Drunman&amp;locatio=
+n=3DDICTZIP/1">DICTZIP(1)</A>                                            =
+              <A =
+href=3D"http://www.ibr.cs.tu-bs.de/cgi-bin/dwww?type=3Drunman&amp;locatio=
+n=3DDICTZIP/1">DICTZIP(1)</A>
+
+<STRONG>NAME</STRONG>
+       dictzip, dictunzip - compress (or expand) files, allowing random =
+access
+
+<STRONG>SYNOPSIS</STRONG>
+       <STRONG>dictzip</STRONG> =
+<STRONG>[</STRONG><EM>options</EM><STRONG>]</STRONG> <EM>name</EM>
+       <STRONG>dictunzip</STRONG> =
+<STRONG>[</STRONG><EM>options</EM><STRONG>]</STRONG> <EM>name</EM>
+
+<STRONG>DESCRIPTION</STRONG>
+       <STRONG>dictzip</STRONG> compresses files using the <A =
+href=3D"http://www.ibr.cs.tu-bs.de/cgi-bin/dwww?type=3Drunman&amp;locatio=
+n=3Dgzip/1"><STRONG>gzip</STRONG>(1)</A> algorithm (LZ77) in a manner
+       which is completely compatible with the <STRONG>gzip</STRONG> =
+file format.  An extension
+       to the <STRONG>gzip</STRONG> file format (Extra Field, described =
+in 2.3.1.1 of RFC 1952)
+       allows  extra  data  to  be  stored in the header of a compressed =
+file.
+       Programs like <STRONG>gzip</STRONG> and <STRONG>zcat</STRONG> =
+will  ignore  this  extra  data.   However,
+       <A =
+href=3D"http://www.ibr.cs.tu-bs.de/cgi-bin/dwww?type=3Drunman&amp;locatio=
+n=3Ddictd/8"><STRONG>dictd</STRONG>(8)</A>,  the  DICT  protocol  =
+dictionary server will make use of this
+       data to perform pseudo-random access on the file.  Files in the =
+<STRONG>dictzip</STRONG>
+       format  should end in ".dz" so that they may be distinguished =
+from com-
+       mon <STRONG>gzip</STRONG> files that do not contain the special =
+header information.
+
+       From RFC 1952, the extra field is specified as follows:
+
+              If the FLG.FEXTRA bit is set, an "extra field" is present =
+in the
+              header,  with  total length XLEN bytes.  It consists of a =
+series
+              of subfields, each of the form:
+
+              =
++---+---+---+---+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D+
+              |SI1|SI2|  LEN  |... LEN bytes of subfield data ...|
+              =
++---+---+---+---+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D+
+
+              SI1 and SI2 provide a subfield ID, typically two  ASCII  =
+letters
+              with      some     mnemonic     value.      Jean-Loup     =
+Gailly
+              &lt;<A =
+href=3D"mailto:gzip@prep.ai.mit.edu">gzip@prep.ai.mit.edu</A>&gt; is =
+maintaining  a  registry  of  subfield
+              IDs;  please send him any subfield ID you wish to use.  =
+Subfield
+              IDs with SI2 =3D 0 are reserved for future use.
+
+              LEN gives the length of the subfield data, excluding the 4 =
+ ini-
+              tial bytes.
+
+       The  <STRONG>dictzip</STRONG>  program  uses 'R' for SI1, and 'A' =
+for SI2 (i.e., "Random
+       Access").  After the LEN field, the data is arranged as follows:
+
+       =
++---+---+---+---+---+---+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D+
+       |  VER  | CHLEN | CHCNT |  ... CHCNT words of data ...  |
+       =
++---+---+---+---+---+---+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D+
+
+       As per RFC 1952, all data is stored least-significant byte first. =
+  For
+       VER  1  of  the  data,  all  values are 16-bits long (2 bytes), =
+and are
+       unsigned integers.
+
+       XLEN (which is specified earlier in the header) is a two byte  =
+integer,
+       so  the extra field can be 0xffff bytes long, 2 bytes of which =
+are used
+       for the subfield ID (SI1 and SI1), and 2 bytes of which  are  =
+used  for
+       the  subfield  length  (LEN).   This leaves 0xfffb bytes (0x7ffd =
+2-byte
+       entries or 0x3ffe 4-byte entries).  Given that the  zip  output  =
+buffer
+       must be 10% + 12 bytes larger than the input buffer, we can store =
+58969
+       bytes per entry, or about 1.8GB if the 2-byte  entries  are  =
+used.   If
+       this  becomes a limiting factor, another format version can be =
+selected
+       and defined for 4-byte entries.
+
+       For compression, the file is divided up into  "chunks"  of  data, =
+ each
+       chunk  is  less  than  64kB, and can be compressed into an area =
+that is
+       also less than 64kB long (taking incompressible data  into  =
+account  --
+       usually  the  data is compressed into a block that is much =
+smaller than
+       the original).  The CHLEN field specifies the length of  a  =
+"chunk"  of
+       data.   The  CHCNT  field specifies how many chunks are preset, =
+and the
+       CHCNT words of data specifies how long each chunk is after  =
+compression
+       (i.e., in the current compressed file).
+
+       To perform random access on the data, the offset and length of =
+the data
+       are provided to library routines.  These routines determine  the  =
+chunk
+       in which the desired data begins, and decompresses that chunk.  =
+Consec-
+       utive chunks are decompressed as necessary.
+
+<STRONG>TRADEOFFS</STRONG>
+       <STRONG>Speed</STRONG>  True random file access is not realized, =
+since any access,  even
+              for a single byte, requires that a 64kB chunk be read and =
+decom-
+              pressed.  This is slower than accessing a flat text file, =
+but is
+              much,  much faster than performing serial access on a =
+fully com-
+              pressed file.
+
+       <STRONG>Space</STRONG>  For the textual dictionary databases we =
+are  working  with,  the
+              use  of 64kB chunks and maximal LZ77 compression realizes =
+a file
+              which is only about 4% larger than the same file =
+compressed  all
+              at once.
+
+<STRONG>OPTIONS</STRONG>
+       <STRONG>-d</STRONG> or <STRONG>--decompress</STRONG>
+              Decompress.   This  is  the  default if the executable is =
+called
+              <STRONG>dictunzip</STRONG>.
+
+       <STRONG>-c</STRONG> or <STRONG>--stdout</STRONG>
+              Write output on standard output; keep original files  =
+unchanged.
+              This  is only available when decompressing (because parts =
+of the
+              header must be updated after a write when compressing).
+
+       <STRONG>-f</STRONG> or <STRONG>--force</STRONG>
+              Force compression or  decompression  even  if  the  output =
+ file
+              already exists.
+
+       <STRONG>-h</STRONG> or <STRONG>--help</STRONG>
+              Display help.
+
+       <STRONG>-k</STRONG> or <STRONG>--keep</STRONG>
+              Do not delete the original file.
+
+       <STRONG>-l</STRONG> or <STRONG>--list</STRONG>
+              For each compressed file, list the following fields:
+
+                  type:  dzip,  gzip,  or text (includes files in =
+unknown for-
+              mats)
+                  crc: CRC checksum
+                  date and time: from header
+                  chunks: number of chunks in file
+                  size: size of each uncompressed chunk
+                  compr.: compressed size
+                  uncompr.: uncompressed size
+                  ratio: compression ratio (0.0% if unknown)
+                  name: name of uncompressed file
+
+              Unlike <STRONG>gzip</STRONG>, the compression method is =
+not detected.
+
+       <STRONG>-L</STRONG> or <STRONG>--license</STRONG>
+              Display the <STRONG>dictzip</STRONG> license and quit.
+
+       <STRONG>-t</STRONG> or <STRONG>--test</STRONG>
+              Check the compressed file integrity.  This option is not  =
+imple-
+              mented.  Instead, it will list the header information.
+
+       <STRONG>-v</STRONG> or <STRONG>--verbose</STRONG>
+              Verbose. Display extra information during compression.
+
+       <STRONG>-V</STRONG> or <STRONG>--version</STRONG>
+              Version. Display the version number and compilation =
+options then
+              quit.
+
+       <STRONG>-s</STRONG> <EM>start</EM> or <STRONG>--start</STRONG> =
+<EM>start</EM>
+              Specify the offer to start decompression, using decimal =
+numbers.
+              The default is at the beginning of the file.
+
+       <STRONG>-e</STRONG> <EM>size</EM> or <STRONG>--size</STRONG> =
+<EM>size</EM>
+              Specify the size of the portion of the file to decompress, =
+using
+              decimal numbers.  The default is the whole file.
+
+       <STRONG>-S</STRONG> <EM>start</EM> or <STRONG>--Start</STRONG> =
+<EM>start</EM>
+              Specify the offer to start decompression, using base64  =
+numbers.
+              The default is at the beginning of the file.
+
+       <STRONG>-E</STRONG> <EM>size</EM> or <STRONG>--Size</STRONG> =
+<EM>start</EM>
+              Specify the size of the portion of the file to decompress, =
+using
+              base64 numbers.  The default is the whole file.
+
+       <STRONG>-p</STRONG> <EM>prefilter</EM> or <STRONG>--pre</STRONG> =
+<EM>prefilter</EM>
+              Specify a shell command to execute as a filter  before  =
+compres-
+              sion or decompression of a chunk.  The pre- and =
+post-compression
+              filters can be used to provide additional compression or  =
+output
+              formatting.   The  filters may not increase the buffer =
+size sig-
+              nificantly.  The pre- and post-compression filters were =
+designed
+              to provide the most general interface possible.
+
+       <STRONG>-P</STRONG> <EM>postfilter</EM> or =
+<STRONG>--post</STRONG> <EM>postfilter</EM>
+              Specify a shell command to execute as a filter after =
+compression
+              or decompression.
+
+<STRONG>CREDITS</STRONG>
+       <STRONG>dictzip</STRONG> was written by Rik Faith (<A =
+href=3D"mailto:faith@cs.unc.edu">faith@cs.unc.edu</A>) and is  =
+distributed
+       under the terms of the GNU General Public License.  If you need =
+to dis-
+       tribute under other terms, write to the author.
+
+       The main libraries used by this programs (zlib, regex, libmaa) =
+are dis-
+       tributed under different terms, so you may be able to use the =
+libraries
+       for applications which are incompatible with the GPL -- please =
+see  the
+       copyright  notices and license information that come with the =
+libraries
+       for more information, and consult with your attorney to  resolve  =
+these
+       issues.
+
+<STRONG>SEE</STRONG> <STRONG>ALSO</STRONG>
+       <A =
+href=3D"http://www.ibr.cs.tu-bs.de/cgi-bin/dwww?type=3Drunman&amp;locatio=
+n=3Ddict/1"><STRONG>dict</STRONG>(1)</A>, <A =
+href=3D"http://www.ibr.cs.tu-bs.de/cgi-bin/dwww?type=3Drunman&amp;locatio=
+n=3Ddictd/8"><STRONG>dictd</STRONG>(8)</A>, <A =
+href=3D"http://www.ibr.cs.tu-bs.de/cgi-bin/dwww?type=3Drunman&amp;locatio=
+n=3Dgzip/1"><STRONG>gzip</STRONG>(1)</A>, <A =
+href=3D"http://www.ibr.cs.tu-bs.de/cgi-bin/dwww?type=3Drunman&amp;locatio=
+n=3Dgunzip/1"><STRONG>gunzip</STRONG>(1)</A>, <A =
+href=3D"http://www.ibr.cs.tu-bs.de/cgi-bin/dwww?type=3Drunman&amp;locatio=
+n=3Dzcat/1"><STRONG>zcat</STRONG>(1)</A>
+
+                                  22 Jun 1997                       <A =
+href=3D"http://www.ibr.cs.tu-bs.de/cgi-bin/dwww?type=3Drunman&amp;locatio=
+n=3DDICTZIP/1">DICTZIP(1)</A>
+</PRE><!-- vim:set ft=3Dhtml: -->
+<P>
+<HR>
+<SMALL><I>Generated by <A=20
+href=3D"http://www.ibr.cs.tu-bs.de/dwww/"><B>dwww</B></A> version 1.9.21 =
+on Tue=20
+Dec 13 17:13:41 CET 2005.</I></SMALL> </BODY></HTML>

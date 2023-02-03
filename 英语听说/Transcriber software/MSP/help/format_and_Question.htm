@@ -1,0 +1,111 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>format_and_Question</title>
+<!--mstheme--><link rel="stylesheet" href="pic/piec1011-106.css">
+<meta name="Microsoft Theme" content="piechart 1011">
+</head>
+
+<body>
+
+<p><font color="#0000FF">副档名说明</font>：</p>
+<p>&nbsp;&nbsp; 由于希望使用者的所有练习或工作成果都能轻易的切换、分享，所以程序采用多重开放格式系统。<br>
+&nbsp;&nbsp; 所用到的格式有 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 笔记本文件 ( *.rtf ), 这是标准文字格式。可用微软的 wordpad 或 Ms Word
+开启。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 听写稿 ( *.lrc-rtf),这也是标准的 rtf 档，不过换个扩展名便于与笔记文件区隔。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 字幕檔 (*lrc , *.srt ),这是最常见的字幕格式。为大多数影音软件所支持。<br>
+<br>
+&nbsp; 但是要如何让程序知道某个字幕文件是属于某特定影音档呢?<br>
+&nbsp; 所以这些关联的附属文件的档名应与该影音文件相同，程序才能辨认并自动加载，这是目前影音外挂文件的标准作法。<br>
+&nbsp; 所幸在此程序中，使用者可以完全不管这些，在存盘时，程序会自动处理这些档名细节。<br>
+&nbsp; 但是如果是<font color="#FF00FF">从别处取得的附属文件</font>则应依上述方式调整文件名，才能被程序叫用。&nbsp;&nbsp; </p>
+<p>　</p>
+<p>&nbsp;<b>以下用影片档&nbsp; xxx.avi 为例.&nbsp;</b>&nbsp; </p>
+<p><font color="#FF00FF">笔记文本 *.note.rtf </font><br>
+&nbsp;&nbsp;&nbsp;&nbsp; 笔记文本&nbsp; 以 .rtf 格式储存，可用word 开启。 <br>
+&nbsp;&nbsp;&nbsp;&nbsp; 档案会自动储存在与影片档相同的资料夹 。<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 档名格式为 xxx.note.rtf&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 若有多重需求( 如 制作大纲、精华重点段落、错误及不熟句子、听写 )，<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 要储存为多个 note 档，但因为 note 档是与影片档关联的，为方便使用，建议档名如下：<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; xxx.my1.note.rtf , <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; xxx.my2.note.rtf ,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; xxx.abc.note.rtf , <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; xxx.大纲.note.rtf , <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; xxx.听写.note.rtf <br>
+&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp; 这样下次开启时，在主选单--&gt;笔记本--切换&nbsp; 就可选择所有该片关联的
+note 档了。<br>
+　</p>
+<p><font color="#FF00FF">字幕档 *.srt&nbsp; *.lrc&nbsp; *lrc-Rtf</font><br>
+&nbsp;&nbsp;&nbsp; .Eng.srt&nbsp; 、&nbsp; .cn.srt 、 .cht.srt 等为常见的中、英文字幕档。<br>
+&nbsp;&nbsp;&nbsp; 具体设定在 Option 视窗 ---&gt; srt type 页。</p>
+<p>　</p>
+<p><font color="#0000FF">问题：</font></p>
+<p>Q1、时间轴拖曳困难、或停顿现象。<br>
+A.&nbsp;&nbsp;&nbsp; 多媒体格式复杂，这可能与内部压缩之固定标记码比率有关，<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 最简单的处理方法，重新再压一次( 例如用winavi 之 avi-avi,
+使用其预设参数即可 ) </p>
+<p>Q2、时间码不同步。<br>
+&nbsp;A.&nbsp;&nbsp;&nbsp;&nbsp; 1、用开源程序 subrip , 微调 srt, 或自.sub重取. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2、某些情况，不使用时间轴拖曳则一切正常，一拖曳后就不同步了。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+处理方法如 Q1. 重新再压一次即可。</p>
+<p><a name="RM_issue">Q3、支持那些多媒体格式？</a><br>
+A.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 由于程序的主内核是用 微软 的 directx,&nbsp; 所以 windows media
+player
+可播的，此程序应该就可播。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 但 windows media player
+并未包含所有的多媒体格式，所以使用者还需安装 已经 套装好的解码器包，例 ( K-Lite Codec Pack <span lang="zh-tw">Mega
+</span>)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#FF00FF">
+如何播放 RM、Rmvb&nbsp;&nbsp; 等 real media </font>格式的档案呢？<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 另外安装一个解码器， 让&nbsp;&nbsp;
+windows media player 可以播 RM. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span lang="zh-tw">个别</span>下载安装 
+RealMediaSpliter <span lang="zh-tw">。</span> <span lang="zh-tw">或</span>解码器包，例 
+<span lang="zh-tw">&nbsp;</span> K-Lite Codec Pack <span lang="zh-tw">Mega 。 </span></p>
+<p>
+<span lang="zh-tw"><a name="cantPlaying">Q4、 无法播放</a>某些影音档?<br>
+</span>A.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span lang="zh-tw">通常是由于</span>未安装相对应的解码器<span lang="zh-tw">，或因为装了其他影音程式修改了</span>解码器<span lang="zh-tw">正常的参数。<br>
+　　　　处理方法：<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;a. 解除安装 k-lite codec mega　. 再重新安装一次。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+b. 如果仍不行，有时重装微软的 ms media player 可让系统参数回复正常。</span></p>
+<p>
+<span lang="zh-tw">Q5、 有声音无画面?<br>
+</span>A.&nbsp;&nbsp;&nbsp; <span lang="zh-tw">a.重装</span>解码器<span lang="zh-tw">．见上Q4.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b.硬体加速是否开启。(控制台--&gt;显示--&gt;设定值--&gt;进阶--&gt;疑难排解--&gt;硬体加速 )。 
+</span>&nbsp;<span lang="zh-tw"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b.如果仍不行，检视 directx 的相关功能是否正常。( 开始---&gt; 执行----&gt; 打入 
+&quot;dxdiag&quot;, 看看其中的各个加速功能是否都开启 )。<br>
+<br>
+</span>
+<br>
+<span lang="zh-tw">Q6、产生的字幕档，无法用于其他软件?<br>
+&nbsp;</span>A. <span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp; 程式产生的字幕文件是用万国码(unicode), 
+这种格式中可以简繁体、日文韩文同时显示于一份文件中而不会有乱码，在不同语系的电脑中开启也不会显示成乱码。是较佳的字幕档格式。大部份语言相关软件都能也应该要能读取这类格式文件。若遇到这类不支援万国码的软件，则需作格式转换( 
+unicode---&gt; ansi ). <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 方法: 1 利用记事本。开启后另存新档，在最下方的“编码”选择 ansi 即可。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 方法: 2 利用本程式。主选单--&gt;工具--&gt; 字幕档格式转换 --&gt; ansi 转 unicode .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+<br>
+&nbsp;<span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><br>
+　</p>
+<p><a name="other_Resources">Q<span lang="zh-tw">7</span>、srt 字幕 的相关<span lang="zh-tw">教学</span>资源.</a><br>
+A.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#FF00FF">&nbsp;</font><a target="_blank" href="http://tw.barry.googlepages.com/06.htm"><font color="#FF00FF">Barry's
+影片字幕教学网</font></a><font color="#FF00FF"> </font>&nbsp;&nbsp;&nbsp; </p>
+<p>　</p>
+<p>　</p>
+<p>　</p>
+<p>　</p>
+<p>　</p>
+
+</body>
+
+</html>

@@ -1,0 +1,503 @@
+the prefix expressing the number
+common used signs in mathematics
+3-digitnumber
+width
+whole number
+volume
+vertical angle
+vertex angle
+velocity
+units' digit
+two digits
+triangle
+trapezoid
+total
+to the nearest
+times
+tie
+tenths' digit
+tenth
+tangent
+surface area
+sum
+subtraction
+subtract
+straight angle
+square root
+square
+sphere
+speed
+solution
+slope
+simple interest
+side
+set
+sequence
+segment
+scalene triangle
+sale price
+round
+right triangle
+right angle
+rhombus
+retail value
+remainder
+regular polygon
+reduced
+rectangular prism
+rectangle
+reciprocal
+real number
+rational
+ratio
+radius
+radian
+quotient
+quadrilateral
+quadrihedron
+quadrant
+purchasing price
+proportion
+proper fraction
+profit
+product
+prime number
+prime factor
+power
+positive number
+polygon
+plus
+plane
+pyramid
+perpendicular lines
+permutation
+perimeter
+per capita
+pentagon
+parallelogram
+parallel lines
+overlap
+ordinate
+odd number
+octagon
+obtuse angle
+numerator
+number lines
+nonzero
+negative number
+natural number
+multiply
+multiplier
+multiplication
+multiple
+minus
+minimum
+mid point
+median of a triangle
+median
+maximum
+mark up
+mark down
+margin
+list price
+length
+leg
+least possible value
+least common multiple
+isosceles triangle
+irrational
+intersect
+interior angle
+interest rate
+intercept
+integer
+inscribe
+increase to
+increase by
+increase
+in terms of
+improper fraction
+hypotenuse
+hexagon
+height
+have left
+geometric progression
+geometric mean
+fraction
+factor
+face
+exterior angle
+expression
+even number
+equilateral triangle
+equation
+down payment
+divisor
+division
+divisible
+dividend
+divided evenly
+distinct
+distance
+discount
+dimension
+difference
+diameter
+diagonal
+depreciation
+denote
+denominator
+degree
+define
+decreased
+decrease to
+decrease by
+decimal point
+decimal
+decagon
+cylinder
+cube
+counterclockwise
+cost
+coordinate
+consecutive integer
+congruent
+cone
+concentric circle
+compound interest
+composite number
+complementary angles
+common factor
+common divisor
+combination
+closest approximation
+clockwise
+circumscribe
+circumference
+circle
+chord
+center
+bisect
+be contained in
+base
+average
+at
+arm
+arithmetic progression
+arithmetic mean
+area
+arc
+angle bisector
+altitude
+algebra
+adjacent angle
+addition
+acute angle
+absolute value
+abscissa
+wall street
+virgin soil
+vichy government
+upscale clientele
+turn down
+transnational cooperation
+transatlantic migrate
+trade in...for
+trade off
+take precedence over
+take over
+take issue with
+stumbling block
+status quo
+status quo ante
+speed velocity
+speculative fever
+sluggish economy
+simple interest
+side effect
+shut off
+rule of thumb
+roller coaster
+resort to
+recruiting agent
+put away
+purchasing price
+pull away
+processed food
+prior to
+prime-time ratings
+play off
+pass up
+other than
+on pain of death
+more than ever
+more often than not
+median of a triangle
+mark down
+mark up
+make(both)ends meet
+make allowances
+look to
+live show
+list price
+lay off
+laissez-faire capitalism
+in so far as
+in sb's favor
+in kind
+in full bloom
+import relief
+housing start
+hit show
+government intervention
+give way to
+give rise to
+get through
+get by
+free market
+fool around
+fly by
+fall into a rut
+ecological systems
+draw on
+draw in
+dote on
+digital audiotape
+delve
+daylight savings time
+compound interest
+closed-circuit television
+cling to
+clerical supplies
+center on
+cash in on
+capitalize on
+capitalize on the opponent's mistake
+call for
+bona fides
+blind spot
+black hole
+be priced out of
+be at issue
+be at a disadvantage
+bargain on doing sth
+average out
+at stake
+at one stroke
+as-yet-unexploited
+assembly line
+antitrust law
+an encounter action
+air envelope
+woodchuck
+whole number
+white dwarf
+vinyl
+vertical angle
+vertex angle
+vector
+varicose
+uranium
+tyrosine
+typology
+tryptophan
+trichotomy
+tortillas
+tonsillectomy
+tight triangle
+thyroid
+the fifth power of two
+terra-cotta
+tektite
+tamarind
+synthetase
+supplementary angles
+sulphate
+streptomycin
+strep throat
+stratosphere
+straight angle
+square root
+snapdragon
+sinusitis
+silicone
+serotonin
+seltzer
+schizophrenia
+schistosomiasis
+scalene triangle
+right angle
+ribosome
+rhinovirus
+rheumatoid
+rem
+regular polygon
+rectangular prism
+radiometric
+quotient
+pulsar
+pterosaur
+psychotherapy
+pseudomer
+protoplasm
+prosthetic hand
+prosthetic
+prostatectomy
+prostaglandin
+proper fraction
+prokaryotic
+prime number
+prime factor
+potassium
+positive number
+polymorph
+plutonium
+Pleistocene
+plasma
+pituitary
+photon
+phosphate fertilizer
+phosphate
+phagocytosis
+periwinkle
+peptide
+pelvic
+parameter
+parallelogram
+parallax
+paleontologist
+paleoclimatologist
+osprey
+orthogenetic
+organelle
+oligosaccharide
+ohydrate metabolism
+odd number
+ocher
+obtuse angle
+obstetrical
+number lines
+nucleotide
+novocaine
+nitric acid
+nitric
+nightshade
+neuron
+neutron
+neuroleptic
+neurogenesis
+negative number
+natural number
+mouflon
+morphological
+morphogenetic
+mitochondria
+migraine
+mid point
+methane
+medium
+matrix
+macrophage
+macaque
+lysis
+lymphocyte
+lymphatic
+lymph
+logotype
+lipoprotein
+lipid
+leukemia
+leucine
+leprosy
+lepidopter
+least common multiple
+least common denominator
+kelp
+jasper
+isotope
+isosceles triangle
+iridium
+ion
+intracellular
+integer
+indomethacin
+improper fraction
+ibuprofen
+hysterectomy
+hypothalamus
+hypertherm
+hydrocarbon
+hemoglobin
+helium
+hadron
+haberdashery
+glycerol
+gingivitis
+gibberellin
+geometric progression
+geometric mean
+gel
+formaldehyde
+follicle
+fallout
+eukaryotic
+ethylene
+equilateral triangle
+endorphin
+encephalitis
+electromagnetic
+dopamine
+divided evenly
+diapir
+denominator
+decimal point
+cytoplasm
+cytology
+cytokinin
+coronary angiography
+coriander
+consecutive integer
+concentric circle
+composite number
+common divisor
+coleslaw
+circadian
+chordate
+cholesterol
+chlorofluorocarbons
+chiaroscuro
+charge
+carpal
+caries
+cardiovascular
+cardiopulmonary
+carcinogen
+budworm
+bubonic
+broccoli
+brandling
+bipedalism
+biota
+binary
+arm
+arithmetic progression
+arithmetic mean
+antipsychotic
+anopheles
+angle bisector
+anaerobic
+anaerobe
+amphetamine
+amino acid
+algebra
+aerosol
+aerobic
+aerobe
+adrenal
+adjacent angle
+acute angle
+acrylic
+acridine
+absolute value
+abscissa
+abscisic acid
